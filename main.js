@@ -21,8 +21,7 @@ let sudokuBoard_1 = [
     [2, 8, 7, 4, 1, 9, 6, 3, 5],
     [3, 0, 0, 4, 8, 1, 1, 7, 9]
   ];
-  
-  
+
 let sudokuBoard = [
     [5, 3, 4, 6, 7, 8, 9, 1, 2],
     [6, 7, 0, 0, 9, 5, 3, 4, 8],
@@ -37,13 +36,13 @@ let sudokuBoard = [
 
 let sudokuResultCheck
 sudokuResultCheck = SudokuResultCheck(sudokuBoard);
-console.log("sudokuResultCheck is " + sudokuResultCheck);
+console.log("sudokuBoard is " + sudokuResultCheck);
 
 sudokuResultCheck = SudokuResultCheck(sudokuBoard_0);
-console.log("sudokuResultCheck is " + sudokuResultCheck);
+console.log("sudokuBoard_0 is " + sudokuResultCheck);
 
 sudokuResultCheck = SudokuResultCheck(sudokuBoard_1);
-console.log("sudokuResultCheck is " + sudokuResultCheck);
+console.log("sudokuBoard_1 is " + sudokuResultCheck);
 
 function SudokuResultCheck(board){
     let isValidBlock;
